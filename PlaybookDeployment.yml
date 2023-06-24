@@ -2,7 +2,7 @@
   become: true
   tasks:
   - name: Clone git repo
-    git: repo=https://github.com/Sonal0409/DevOpsCodeDemo.git dest=/tmp/myrepo
+    git: repo=https://github.com/mo7amedsalah/Java-Project.git dest=/tmp/myrepo
   - name: Build the code
     command: chdir=/tmp/myrepo mvn package
   - name: Copy the war file in current directory
